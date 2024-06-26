@@ -10,7 +10,7 @@
 
 Welcome to the **AppMedic** project, an application designed to report essential medicines in case of supply difficulties.
 
-Here is the link to the Backend project: [AppMedicBack](https://github.com/paulpp78/appMedicBack)
+Here is the link to the Backend project: [AppMedicBack](https://github.com/paulpp78/AppMedicBack)
 
 ## 📋 Prerequisites
 

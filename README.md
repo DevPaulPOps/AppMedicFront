@@ -1,94 +1,102 @@
-# AppMedicFront
+# 💊 AppMedicFront
 
-Bienvenue sur le projet appMedic, une application conçue pour signaler les médicaments essentiels en cas de difficulté d'approvisionnement.
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+![npm](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
 
-Voici le lien vers le projet Back-end : [AppMedicBack](https://github.com/paulpp78/appMedicBack)
+## 🎉 Welcome
 
-## Prérequis
+Welcome to the **AppMedic** project, an application designed to report essential medicines in case of supply difficulties.
 
-Assurez-vous que Node.js et npm sont installés sur votre machine.
+Here is the link to the Backend project: [AppMedicBack](https://github.com/paulpp78/appMedicBack)
 
-## Installation des dépendances
+## 📋 Prerequisites
 
-Installez les dépendances npm en exécutant :
+Make sure Node.js and npm are installed on your machine.
+
+## 📦 Install Dependencies
+
+Install npm dependencies by running:
 
 ```bash
 npm install
 ```
 
-## Serveur de développement
+## 🚀 Development Server
 
-Pour lancer le serveur de développement, exécutez :
+To start the development server, run:
 
 ```bash
 ng serve
 ```
 
-Naviguez ensuite vers `http://localhost:4200/`. L'application se rechargera automatiquement si vous modifiez les fichiers sources.
+Then navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Génération de code
+## 🛠️ Code Generation
 
-Pour générer un nouveau composant, exécutez :
+To generate a new component, run:
 
 ```bash
 ng generate component component-name
 ```
 
-Vous pouvez également utiliser `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Construction
+## 🔨 Build
 
-Pour construire le projet, exécutez :
+To build the project, run:
 
 ```bash
 ng build
 ```
 
-Les artefacts de construction seront stockés dans le répertoire `serverGo/app-medic`.
+The build artifacts will be stored in the `serverGo/app-medic` directory.
 
-## Exécution des tests unitaires
+## ✅ Running Unit Tests
 
-Pour exécuter les tests unitaires via [Karma](https://karma-runner.github.io), exécutez :
+To execute the unit tests via [Karma](https://karma-runner.github.io), run:
 
 ```bash
 ng test
 ```
 
-## Exécution des tests end-to-end
+## 🌐 Running End-to-End Tests
 
-Pour exécuter les tests end-to-end via une plateforme de votre choix, exécutez :
+To execute the end-to-end tests via a platform of your choice, run:
 
 ```bash
 ng e2e
 ```
 
-Pour utiliser cette commande, vous devez d'abord ajouter un package qui implémente des capacités de test end-to-end.
+To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Aide supplémentaire
+## 💡 Additional Help
 
-Pour obtenir plus d'aide sur l'Angular CLI, utilisez `ng help` ou consultez la page [Angular CLI Overview and Command Reference](https://angular.io/cli).
+For more help on the Angular CLI, use `ng help` or check out the [Angular CLI Overview and Command Reference](https://angular.io/cli).
 
-## Déploiement
+## 🌍 Deployment
 
 ### Docker
 
-Un `Dockerfile` est inclus dans ce projet. Pour construire et exécuter le conteneur Docker, utilisez les commandes suivantes :
+A `Dockerfile` is included in this project. To build and run the Docker container, use the following commands:
 
-Pour construire l'image Docker :
+To build the Docker image:
 
 ```bash
 docker build -t appmedicfront .
 ```
 
-Pour exécuter le conteneur Docker :
+To run the Docker container:
 
 ```bash
 docker run -p 443:443 appmedicfront
 ```
 
-### Serveur Go
+### Go Server
 
-Dans le dossier `serverGo`, il y a un fichier `server.go` qui permet de lancer un serveur web en Go. Pour lancer ce serveur, assurez-vous que Go est installé, puis exécutez :
+In the `serverGo` folder, there is a `server.go` file that allows you to launch a web server in Go. To start this server, ensure Go is installed, then run:
 
 ```bash
 go run serverGo/server.go
